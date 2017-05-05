@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5A664F91-A1E6-46BE-BE4B-AE9E2A41734B}</ProjectGuid>
-    <RootNamespace>ComputeSquare</RootNamespace>
+    <ProjectGuid>{A773A239-F0FE-472A-B2C2-97C8978E8D63}</ProjectGuid>
+    <RootNamespace>BubbleSortGPU</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,7 +151,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="square.cu" />
+    <CudaCompile Include="bubblesort.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

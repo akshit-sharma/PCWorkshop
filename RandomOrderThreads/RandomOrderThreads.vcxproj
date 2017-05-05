@@ -19,8 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5A664F91-A1E6-46BE-BE4B-AE9E2A41734B}</ProjectGuid>
-    <RootNamespace>ComputeSquare</RootNamespace>
+    <ProjectGuid>{7ABC32EB-FD22-46DD-8FD6-3CB92B676A96}</ProjectGuid>
+    <RootNamespace>RandomOrderThreads</RootNamespace>
+    <ProjectName>BlocksOrder</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,7 +152,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="square.cu" />
+    <CudaCompile Include="printfBlocks.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
