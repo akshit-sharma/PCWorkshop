@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSortCPU", "BubbleSort
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSortGPU", "BubbleSortGPU\BubbleSortGPU.vcxproj", "{A773A239-F0FE-472A-B2C2-97C8978E8D63}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComputeSquareLoop", "ComputeSquareLoop\ComputeSquareLoop.vcxproj", "{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{A773A239-F0FE-472A-B2C2-97C8978E8D63}.Release|x64.Build.0 = Release|x64
 		{A773A239-F0FE-472A-B2C2-97C8978E8D63}.Release|x86.ActiveCfg = Release|Win32
 		{A773A239-F0FE-472A-B2C2-97C8978E8D63}.Release|x86.Build.0 = Release|Win32
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Debug|x64.ActiveCfg = Debug|x64
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Debug|x64.Build.0 = Debug|x64
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Debug|x86.ActiveCfg = Debug|Win32
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Debug|x86.Build.0 = Debug|Win32
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Release|x64.ActiveCfg = Release|x64
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Release|x64.Build.0 = Release|x64
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Release|x86.ActiveCfg = Release|Win32
+		{D8D94DD0-4A7D-4EA3-8964-677B8B1EF138}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
